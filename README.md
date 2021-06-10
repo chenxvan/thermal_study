@@ -1,7 +1,7 @@
 # thermal_study
 thermal_image.py is for making the 2D pictures with the same range of temperature. To run it:
   
-  python thermal_image.py  <input directory> <max temperature> <min temperature>
+  python thermal_image.py  [input directory] [max temperature] [min temperature]
   e.g. python thermal_image.py  '/Users/xuanchen/Desktop/06_09_2021_11_42_42_RTD_bath5C_runaway/' 27 0
   
 thermal_image_1d.py is for plotting temperature vs time plot for five points on the thermal images(four around the RTD and one far away from the heater). To run it:
